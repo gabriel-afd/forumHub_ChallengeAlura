@@ -1,0 +1,6 @@
+CREATE TABLE topico (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    mensagem VARCHAR(255) NOT NULL,
+    nome_curso VARCHAR(255) NOT NULL,
+    titulo VARCHAR(255) NOT NULL
+);
